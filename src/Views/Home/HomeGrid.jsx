@@ -42,7 +42,7 @@ export default function HomeGrid() {
                 }
 
                 {
-                  ', Pills free treatment is now available at your doorstep'
+                  ', Drugs free treatment is now available at your doorstep'
                 }
               </Typography>
             </Box>

@@ -10,7 +10,7 @@ export default function HomeImage(){
             <div className="details">
                 <p className="text-big"><span style={{color:"red"}} >वैद्य-</span> Acupressure <span>&nbsp;&&nbsp;</span> Yoga Centre in Delhi</p>
                 <div className="buttons">
-                    <Button variant="contained" color="success"><a href="tel:+919871429687">Book Appointment</a></Button>
+                    <Button variant="contained" color="error"><a href="tel:+919871429687" style={{color:"white"}}>Book Appointment</a></Button>
                 </div>
             </div>
         </div>
