@@ -17,7 +17,9 @@
     color: midnightblue;
     align-items: center;
     font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Mono', monospace;
 }
 .btn{
     padding: 8px 26px;
@@ -63,16 +65,18 @@
         top: -119px;
     }
     .text-big {
-        font-size: 17px;
+        font-size: 13px;
         font-weight: bold;
         justify-content: center;
         display: flex;
         top: 62px;
         margin-top: 67px;
-        left: -193px;
+        left: -192px;
         position: absolute;
         align-items: center;
         font-family: 'Anton', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-family: 'Permanent Marker', cursive;
+        font-family: 'Roboto Mono', monospace;
     }
 }
