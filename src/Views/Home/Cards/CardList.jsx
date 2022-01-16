@@ -22,7 +22,7 @@ export default function CardList(){
 
     return(
         <React.Fragment>
-        <h1 className='disease_heading' >--DISEASES WE CURE--</h1>
+        {/* <h1 className='disease_heading' >--DISEASES WE CURE--</h1> */}
         <div className="card-list">
                 { diseases.map(disease=>{
                     return <Card key={disease.name} disease={disease} />
