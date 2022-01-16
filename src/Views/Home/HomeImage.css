@@ -1,0 +1,78 @@
+
+.home_img{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-big {
+    font-size: 38px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    margin-top: -447px;
+    margin-left: 230px;
+    position: absolute;
+    background: lightgray;
+    color: midnightblue;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+.btn{
+    padding: 8px 26px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+.buttons {
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+    top: -362px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-small {
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: -24px;
+    background: lemonchiffon;
+}
+@media only screen and (max-width:767px){
+    .details{
+        
+    }
+    .home_img{
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+    }
+    .buttons {
+        top: -119px;
+    }
+    .text-big {
+        font-size: 17px;
+        font-weight: bold;
+        justify-content: center;
+        display: flex;
+        top: 62px;
+        margin-top: 67px;
+        left: -193px;
+        position: absolute;
+        align-items: center;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+    }
+}

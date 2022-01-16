@@ -1,0 +1,50 @@
+.strip{
+    background: black;
+    height: 50px;
+
+}
+.contact-details{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+.email{
+    color: white;
+}
+.phone{
+    color: white;
+}
+.whatsApp {
+    color: white;
+    background: green;
+    transition: width 2s;
+    border-radius: 10px;
+    width: 13%;
+    display: flex;
+    height: 31px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+.text_name{
+    color:white;
+}
+.text_name:hover{
+    color:yellow;
+}
+/* @media (max-width:767px) { 
+ 
+  
+@media (min-width:992px) { 
+  
+} */
+
+@media only screen and (max-width:767px){
+   
+}
+@media only screen and (max-width:992px){
+   
+}
+@media only screen and (max-width:1128px){
+    
+}

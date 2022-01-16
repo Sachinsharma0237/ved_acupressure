@@ -1,0 +1,42 @@
+
+.about_us_head {
+    position: relative;
+    left: 45%;
+    font-size: x-large;
+    -webkit-text-stroke-width: medium;
+}
+.data_abt{
+    background: beige;
+}
+.about_data{
+    display: flex;
+    background: beige;
+}
+.image_about {
+    display: flex;
+    align-items: center;
+    width: 420px;
+    height: 208px;
+    justify-content: right;
+}
+.para {
+    background: beige;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (max-width:767px){
+    .about_us_head{
+
+    }
+    .image_about{
+    
+    }
+    .about_data {
+        display: flex;
+        background: beige;
+        flex-direction: column;
+    }
+}

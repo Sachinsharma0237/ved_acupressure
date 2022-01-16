@@ -1,0 +1,49 @@
+.disease_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.card-list{
+    width: 84vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 63px;
+    margin-bottom: 29px;
+}
+.visting{
+    border: 1px solid grey;
+    border-radius: 5px;
+    top: 150px;
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 25%;
+    right: 25%;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+}
+.visting:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width:767px){
+    .card-list {
+        width: 85vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        margin-top: 63px;
+        margin-bottom: 29px;
+    }
+}
+
